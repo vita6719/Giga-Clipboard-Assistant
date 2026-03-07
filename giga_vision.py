@@ -3,7 +3,8 @@ from gigachat import GigaChat
 import pyperclip
 
 # Твой ключ остается тем же
-AUTH_KEY = "MDE5YTYxMjQtMTEwYy03Zjg0LWFlNTgtZTg1NDBmYjA5YTc4OjUxMzFiNjlkLTgyNmYtNDhkMS1iZjUwLTJjYjg1MmJkNjNiNA=="
+AUTH_KEY = "ВАШ_АВТОРИЗАЦИОННЫЙ_КЛЮЧ_ИЗ_SBER_STUDIO"
+
 
 def fast_solve():
     print("📸 1. Делаю скриншот окна (на всякий случай)...")
@@ -31,3 +32,4 @@ if __name__ == "__main__":
         print("-" * 30)
     except Exception as e:
         print(f"❌ Ошибка связи: {e}")
+
